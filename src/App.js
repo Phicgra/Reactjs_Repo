@@ -3,6 +3,7 @@ import './App.css';
 import Greet from './component/Greet';
 import Message from './component/Message';
 import { Component } from 'react';
+import Counter from './component/Counter';
 
 
 class App extends Component {
@@ -13,9 +14,10 @@ class App extends Component {
         <Greet>
           <p>React Ultimate Course</p> 
           <button>Register</button>
-        </Greet> */}
+        </Greet>
 
-        <Message/>
+        <Message/> */}
+        <Counter/>
       </div>
     );
   }
